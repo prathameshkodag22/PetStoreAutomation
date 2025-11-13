@@ -1,0 +1,52 @@
+URL:- https://petstore.swagger.io/
+--------------------------------------------------
+Pre-requisites
+
+Step 1: Create Maven Project
+Step 2: Update pom.xml with required dependencies
+step 3: Create Folder Structure
+
+---------------------------------------------------
+Step 4: Create Routes.java --contains URL's
+Step 5: Create UserEndpoints.java -- CRUD Method Implementation
+Step 6: Create TestCases
+
+Step 7: Create Data Driven Test
+    Excel sheet data
+    excelUtility
+    DataProvider
+
+Step 8: Generate Extent Reports
+    ExtentReport Utility
+    testng.xml file
+
+Step 9: Add Logs  //not added
+    log4j2 library
+
+Step 10: Create Routes.properties file instead of class(Routes.java) //Another way
+
+Step 11: Add maven surefire and maven compiler plugin for running the project through pom.xml
+
+Step 12: Run Project through CMD for (testing remote run through jenkins)
+    Download and extract Apache Maven in C Drive
+    add maven bin path to environment variables
+    open CMD and cd to project folder and execute --> maven test
+
+Step 13: Commit the code in local repository(git)
+    push your code to remote repository(github)
+    run project in jenkins(from git github)
+
+PrathameshK@PCld-E-VM-P168 MINGW64 /d/Intellij IDE/PetStoreAutomation
+$ git init
+Initialized empty Git repository in D:/Intellij IDE/PetStoreAutomation/.git/
+
+PrathameshK@PCld-E-VM-P168 MINGW64 /d/Intellij IDE/PetStoreAutomation (main)
+$ git config --global user.name "prathameshkodag22"
+
+PrathameshK@PCld-E-VM-P168 MINGW64 /d/Intellij IDE/PetStoreAutomation (main)
+$ git config --global user.email "prathameshkodag@gmail.com"
+
+PrathameshK@PCld-E-VM-P168 MINGW64 /d/Intellij IDE/PetStoreAutomation (main)
+$
+
+

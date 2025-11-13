@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStoreAutomationSuite" verbose="1" preserve-order="true">
+
+    <!-- Register the ExtentReports listener -->
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test name="UserTests">
+        <classes>
+            <!-- Primary test class: add additional classes here as needed -->
+<!--            <class name="api.test.DDTests"/>-->
+<!--            <class name="api.test.UserTests"/>-->
+            <class name="api.test.UserTests_2"/>
+        </classes>
+    </test>
+</suite>
+
